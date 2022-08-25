@@ -126,7 +126,14 @@ a:active {
     height: 200px;
     margin-left: 20px;
     margin-top: 60px;
-    border: 1px solid red;
+}
+.live iframe {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 95%;
+    height: 85%;
+    border-radius: 10px;
 }
 .design1 {
     position: absolute;
@@ -982,18 +989,17 @@ a:active {
 /* SOCIAL MEDIA  */
 .socialMedia {
     position: absolute;
-    top: 220px;
+    top: 250px;
 }
 .fa-brands {
     margin-right: 5px;
     color: #A41C25;
-    
 }
 .copyright {
     position: absolute;
-    width: 400px;
+    width: 700px;
     height: 25px;
-    left: 547px;
+    left: 500px;
     top: 5366px;
 }
 .copyright p {
