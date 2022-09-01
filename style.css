@@ -3,7 +3,6 @@
 }
 body {
     background: #FAFAFA;
-    
 }
 
 a:link {
@@ -254,7 +253,6 @@ a:active {
     line-height: 38px;
     color: #A41C25;
 }
-
 .mission {
     box-sizing: border-box;
     position: absolute;
@@ -383,7 +381,7 @@ a:active {
     left: 720px;
 }
 
-/* PRAY */
+/* PROGRAMS */
 .pray {
     position: absolute;
     width: 1161px;
@@ -414,6 +412,9 @@ a:active {
     line-height: 38px;
     color: #A41C25;
 }
+.upperRoomCont p {
+    width: 200px;
+}
 .upperRoomCont p, .graceService p, .hangout p, .soak p {
     height: 46px;
     font-family: 'Mulish';
@@ -423,14 +424,22 @@ a:active {
     line-height: 23px;
     color: #4D4343;
 }
-.graceService h5, .hangout h5, .soak h5 {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #A41C25;
-    padding-left: 10px;
+
+.cameraIcon {
+    position: absolute;
+    background: url(images/camera.png) no-repeat;
+    left: 230px;
+    right: 50px;
+    top: 95px;
+    bottom: 1px;
+}
+.camPlay {
+    position: absolute;
+    background: url(images/camPlay.png) no-repeat;
+    left: 255px;
+    right: 50px;
+    top: 108px;
+    bottom: 1px;
 }
 .design9 {
     position: absolute;
@@ -461,27 +470,84 @@ a:active {
 .packages {
     position: absolute;
     display: flex;
-    width: 1000px;
+    width: 1150px;
     height: 240px;
-    left: 80px;
+    left: 10px;
     top: 190px;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.card-title {
+.graceService {
     position: absolute;
-    border-left: 11px solid #4D4343;
-    width: 250px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    top: 220px;
+    width: 361px;
+    height: 240px;
+    left: 0px;
 }
-.card {
+.pic1, .pic2, .pic3 {
+    position: absolute;
+    width: 361px;
+    height: 147px;
+}
+.pic1 {
+    background-image: url(images/grace.png);
+}
+.pic2 {
+    background-image: url(images/hangout.png);
+}
+.pic3 {
+    background-image: url(images/soak.png);
+}
+.picPara {
+    position: absolute;
+    width: 361px;
+    height: 46px;
+    top: 147px;
+}
+.picPara p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4343;
+}
+.picTitle {
+    position: absolute;
+    width: 361px;
+    height: 46px;
+    top: 192px;
+    border-left: 11px solid #4D4343;
+    align-items: center;
+    display: flex;
+}
+.hangout {
+    position: absolute;
+    width: 361px;
+    height: 240px;
+    left: 394px;
+}
+.soak {
+    position: absolute;
+    width: 361px;
+    height: 240px;
+    left: 788px;
+}
+.graceService h5, .hangout h5, .soak h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #A41C25;
+    padding-left: 10px;
+}
+/* .card {
     border: none;
     background: none;
-}
+} */
+
+/* SERVICE PICTURES */
 .pictures {
     position: absolute;
     width: 1349px;
@@ -496,6 +562,13 @@ a:active {
     left: 110px;
     top: 51px;
 }
+.mainPic {
+    position: relative;
+    width: 1035px;
+    height: 535px;  
+    left: 50px;
+    top: 60px
+}
 .carousel button span {
     background-color: #A41C25;
     border-radius: 50%;
@@ -503,25 +576,50 @@ a:active {
     width: 32px;
     height: 32px;
 }
-.lsp {
-    left: 120px;
-    top: 90px;
+.picPrev {
+    left: -100px;
+}
+.picNext {
+    left: 1065px;
+}
+.lspt {
+    position: absolute;
     margin-bottom: 10px;
+    width: 332px;
+    height: 229px; 
+}
+.lspb {
+    position: absolute;
+    top: 245px;
+    margin-bottom: 10px;
+    width: 332px;
+    height: 229px; 
 }
 .mdp {
-    left: 420px;
-    top: -330px;
+    position: absolute;
+    left: 350px;
+    width: 332px;
+    height: 474px; 
 }
-.rsp {
-    top: -740px;
-    left: 720px;
+.rspt {
+    position: absolute;
+    left: 700px;
     margin-bottom: 10px;
+    width: 332px;
+    height: 229px; 
+}
+.rspb {
+    position: absolute;
+    top: 245px;
+    left: 700px;
+    margin-bottom: 10px;
+    width: 332px;
+    height: 229px; 
 }
 .carousel h6 {
     position: absolute;
-    left: 120px;
-    top: 30px;
-    
+    left: 50px;
+    top: 10px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -548,11 +646,25 @@ a:active {
     position: absolute;
     width: 130px;
     height: 122px;
-    left: 1050px;
+    left: 1100px;
     top: 500px;
     background: url(images/Group\ 293.png);
 }
-
+.mainLspt {
+    background-image: url(images/picture\ \(1\).png);
+}
+.mainLspb {
+    background-image: url(images/picture\ \(2\).png);
+}
+.mainMdp {
+    background-image: url(images/picture\ \(3\).png);
+}
+.mainRspt {
+    background-image: url(images/picture\ \(4\).png);
+}
+.mainRspb {
+    background-image: url(images/picture\ \(5\).png);
+}
 
 /* AUDIO MESSAGE AND TESTIMONIES  */
 .listen {
@@ -562,18 +674,20 @@ a:active {
     left: 120px;
     top: 3708px;
 }
-.info {
+.infoCont {
     position: absolute;
-
     width: 1138px;
-    height: 238px;
+    height: 250px;
     left: 0px;
     top: 0px;
 }
+.audioCont {
+    width: 450px;
+    height: 248px;
+}
 .audio {
-    width: 444px;
+    width: 440px;
     height: 238px;
-    
     background: #FAFAFA;
     box-shadow: 0px 4px 4px #F81A29;
     border-radius: 10px;
@@ -584,7 +698,6 @@ a:active {
     height: 38px;
     left: 16px;
     top: 72px;
-    
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -598,13 +711,11 @@ a:active {
     height: 46px;
     left: 16px;
     top: 120px;
-    
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-    
     color: #4D4343;
 }
 .radio {
@@ -613,7 +724,6 @@ a:active {
     height: 206.6px;
     left: 292px;
     top: 16px;
-
     background: #A41C25;
     border-radius: 7.43169px;
     cursor: pointer;
@@ -635,10 +745,11 @@ a:active {
     height: 50px;
 }
 .member1 {
+    position: absolute;
     width: 300px;
     height: 238px;
     left: 500px;
-    top: -240px;
+    top: 0px;
     border-radius: 10px;
 }
 .bigQuote {
@@ -648,30 +759,34 @@ a:active {
     background-image: url(images/Vector\ \(3\).png);
 }
 .member2 {
+    position: absolute;
     width: 300px;
     height: 238px;
     left: 835px;
     border-radius: 10px;
-    top: -480px;
+    top: 0px;
 }
 .member3 {
+    /* position: absolute; */
     width: 400px;
     height: 238px;
     left: 0px;
     border-radius: 10px;
 }
 .member4 {
+    position: absolute;
     width: 400px;
     height: 238px;
     left: 420px;
-    top: -238px;
+    top: 0px;
     border-radius: 10px;
 }
 .member5 {
+    position: absolute;
     width: 400px;
     height: 238px;
     left: 830px;
-    top: -476px;
+    top: 0px;
     border-radius: 10px;
 }
 .member1 p, .member2 p,
@@ -710,20 +825,41 @@ a:active {
     height: 32px;
 }
 .left {
-    margin-left: -100px;
+    margin-left: -50px;
+    width: 50px;
+    height: 50px;
+    top: 100px;
 }
 .right {
-    margin-right: -90px;
+    width: 50px;
+    height: 50px;
+    margin-right: -50px;
+    top: 100px;
 }
 
 
-/* DISCIPLESHIP JOURNEY */
+/* MUSIC AND DISCIPLESHIP JOURNEY */
+.musicNjourney {
+    position: absolute;
+    width: 1349px;
+    height: 964px;
+    top: 4090px;
+    background-image: url(images/picBg.png);
+}
+.music {
+    position: absolute;
+    background-image: url(images/music.png);
+    width: 988px;
+    height: 378px;
+    left: 170px;
+    top: 63px;
+}
 .journey {
     position: absolute;
     width: 1021px;
     height: 359px;
     left: 170px;
-    top: 4090px;
+    top: 526px;
 }
 .video {
     position: absolute;
@@ -807,14 +943,115 @@ a:active {
     height: 21px;
     background: #A41C25;
     left: 1235px;
-    top: 4037px;
+    top: 4090px;
+    z-index: 1;
 }
 .design11 {
     position: absolute;
     width: 170px;
     height: 21px;
-    top: 4528px;
+    top: 5030px;
     background: #4D4343;
+    z-index: 1;
+}
+
+/* PASTORS */
+.meetPastors {
+    position: absolute;
+    width: 1349px;
+    height: 721px;
+    top: 5090px;
+    background: #A41C25;
+    opacity: 0.3;
+}
+.pastors {
+    position: absolute;
+    width: 1120px;
+    height: 674px;
+    left: 110px;
+    top: 5120px;
+}
+.pastors h6 {
+    position: absolute;
+    width: 249px;
+    height: 38px;
+    left: 440px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #A41C25;
+}
+.pastorTolu {
+    position: absolute;
+    width: 332px;
+    height: 474px;
+    top: 78px;
+    background-image: url(images/pastorTolu.png);
+    border-radius: 9px;
+}
+.ptInfo {
+    position: absolute;
+    width: 416px;
+    height: 207px;
+    left: 350px;
+    top: 78px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4343;
+}
+.ptInfo p, .pfInfo p {
+    width: 416px;
+    height: 207px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4343;
+}
+.pastorFunke {
+    position: absolute;
+    width: 332px;
+    height: 474px;
+    left: 785px;
+    top: 195px;
+    background: url(images/pastorFunke.png);
+    border-radius: 9px;
+}
+.pfInfo {
+    position: absolute;
+    width: 416px;
+    height: 207px;
+    left: 350px;
+    top: 429px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #4D4343;
+}
+.design13 {
+    position: absolute;
+    width: 130px;
+    height: 122px;
+    background: url(images/Group\ 618.png);
+    left: 0px;
+    top: 555px;
+}
+.design14 {
+    position: absolute;
+    width: 130px;
+    height: 122px;
+    background: url(images/Group\ 618.png);
+    left: 980px;
+    top: 70px;
 }
 
 /* CONTACT */
@@ -823,7 +1060,7 @@ a:active {
     width: 1349px;
     height: 713px;
     left: 0px;
-    top: 4700px;
+    top: 6000px;
     background: #A41C25;
     opacity: 0.1;
 }
@@ -832,7 +1069,7 @@ a:active {
     width: 1192px;
     height: 695px;
     left: 80px;
-    top: 4605px;
+    top: 5905px;
 }
 .prayerSal {
     position: absolute;
@@ -905,7 +1142,8 @@ a:active {
     width: 320px;
 }
 .location p {
-    width: 369px;
+    width: 150px;
+    /* width: 369px; */
     margin-top: 50px;
 }
 .needPrayer p {
@@ -919,6 +1157,12 @@ a:active {
     border-radius: 4.97539px;
     background: none;
     margin-top: 15px;
+}
+.needPrayer form input {
+    height: 43px;
+}
+.needPrayer form textarea {
+    height: 141px;
 }
 .messageSubmit {
     display: flex;
@@ -1000,7 +1244,7 @@ a:active {
     width: 700px;
     height: 25px;
     left: 500px;
-    top: 5366px;
+    top: 6680px;
 }
 .copyright p {
     position: absolute;
@@ -1013,4 +1257,87 @@ a:active {
     line-height: 23px;
     z-index: 10;
     color: #4D4343;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- iPhone 12 Mini ----------- */
+ 
+/* 2340x1080 pixels at 476ppi */ 
+@media only screen
+and (device-width: 360px) 
+and (device-height: 780px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+
+
+
+/* ----------- iPhone 12, 12 Pro ----------- */
+ 
+/* 2532x1170 pixels at 460ppi */ 
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+}
+
+
+
+/* ----------- iPhone 11 ----------- */
+/* 1792x828px at 326ppi */ 
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) { 
+
+}
+
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+
+}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+
+}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+
 }
