@@ -41,14 +41,15 @@ a:active {
     width: 612px;
 }
 .nav-link {
-    width: 100px;
+    width: 120px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #FAFAFA;
-    margin-right: 27px;
+    /* margin-right: 5px; */
     text-align: center;
+    border: 1px solid red;
 }
 
 /* LOGO */
