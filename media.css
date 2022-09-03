@@ -9,7 +9,8 @@
     .home {
         position: absolute;
         height: 562px;
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         left: 0px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homeBgMobile.png) no-repeat;
     }
@@ -102,7 +103,8 @@
 
     /* PROMISES */
     .promises {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 230px;
         top: 968px;
     }
@@ -145,7 +147,8 @@
 
     /* MISSION, VISION, MINISTRY, BELIEFS & CORE VALUES */
     .about {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 950px;
         top: 1198px;
         background-color: #060000;
@@ -211,6 +214,7 @@
     .aboutCont h6 {
         font-size: 15px;
         line-height: 19px;
+        width: 110px;
     }
     .aboutCont p, .aboutCont ul {
         font-size: 10px;
@@ -426,7 +430,8 @@
 
     /* SERVICE PICTURES */
     .pictures {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 650px;
         top: 2561px;
     }
@@ -679,7 +684,8 @@
 
     /* MUSIC AND DISCIPLESHIP JOURNEY */
     .musicNjourney {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 630px;
         top: 3700px;
     }
@@ -767,12 +773,14 @@
     
     /* PASTORS */
     .meetPastors {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 480px;
         top: 4350px;
     }
     .pastors {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 674px;
         left: 10px;
         top: 4380px;
@@ -834,7 +842,8 @@
 
     /* CONTACT */
     .contactUs {
-        width: 390px;
+        width: 100%;
+        /* width: 390px; */
         height: 400px;
         left: 0px;
         top: 5310px;
