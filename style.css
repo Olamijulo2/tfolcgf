@@ -41,6 +41,7 @@ a:active {
     width: 612px;
 }
 .nav-link {
+    position: relative;
     width: 120px;
     font-family: 'Mulish';
     font-style: normal;
@@ -49,7 +50,8 @@ a:active {
     color: #FAFAFA;
     /* margin-right: 5px; */
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid blue;
+    top: 5px;
 }
 
 /* LOGO */
