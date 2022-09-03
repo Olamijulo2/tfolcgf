@@ -13,7 +13,7 @@
         width: 100%;
         /* width: 390px; */
         left: 0px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homeBgMobile.png) no-repeat, width (100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/homeBg.png) no-repeat, width (100%);
     }
     .st {
         width: 60px;
@@ -84,10 +84,11 @@
     }
     .verse1 p {
         top: 4px;
-        width: 44px;
+        width: 84px;
         height: 14px;
         font-size: 9.23869px;
         line-height: 14px;
+        /* border: 1px solid blue */
     }
     .preach {
         /* position: inherit; */
@@ -231,6 +232,10 @@
         line-height: 13px;
         width: 300px;
     }
+    .mCont p, .vCont p, .miCont p {
+        width: 135px;
+
+    }
     .vaCont ul {
         width: 100px;
     }
@@ -244,7 +249,7 @@
         width: 80px;
         height: 80px;
     }
-    .bCont p, .mCont p, .vCont p, .miCont p, .vaCont p {
+    .bCont p, .vaCont p {
         width: 150px;
     }
     .bCont {
