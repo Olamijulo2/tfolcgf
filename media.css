@@ -88,12 +88,9 @@
         height: 14px;
         font-size: 9.23869px;
         line-height: 14px;
-        /* border: 1px solid blue */
     }
     .preach {
-        /* position: inherit; */
         left: 9%;
-        /* left: 17px; */
         top: 530px;
     }
     .design1 {
@@ -226,6 +223,7 @@
         font-size: 15px;
         line-height: 19px;
         width: 180px;
+        left: 10px;
     }
     .aboutCont p, .aboutCont ul {
         font-size: 10px;
@@ -233,8 +231,18 @@
         width: 300px;
     }
     .mCont p, .vCont p, .miCont p {
-        width: 133px;
+        width: 150px;
+        /* width: 133px; */
+        top: 20px;
+        position: absolute;
+        border: 1px solid red;
+    }
 
+    .bCont ul {
+        /* height: 100px;
+        left: 100px; */
+        top: 20px;
+        position: absolute;
     }
     .vaCont ul {
         width: 100px;
@@ -270,10 +278,10 @@
         width: 80px;
         height: 80px;
     } */
-    .bCont p, .vaCont p {
+    /* .bCont p, .vaCont p {
         width: 150px;
         height: 330px;
-    }
+    } */
     /* .bCont {
         width: 100px;
     } */
@@ -1045,6 +1053,9 @@
     }
 }
 
+@media screen and (min-width:600px) and (max-width:768px) {
+
+}
 
 
 
