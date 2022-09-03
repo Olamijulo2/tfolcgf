@@ -4,6 +4,7 @@
     /* NAVIGATION */
     /* html, body {
         overflow-x: hidden;
+        width: 390px;
     } */
     .home {
         position: absolute;
@@ -141,6 +142,8 @@
         left: 170px;
         top: 68px;
     }
+
+    /* MISSION, VISION, MINISTRY, BELIEFS & CORE VALUES */
     .about {
         width: 390px;
         height: 950px;
@@ -214,13 +217,24 @@
         line-height: 13px;
         width: 300px;
     }
+    .vaCont ul {
+        width: 100px;
+    }
     .bCont, .mCont, .vCont, .miCont, .vaCont {
         left: 15px;
         top: 10px;
+        width: 150px;
+        height: 150px;
     }
-
+    .vaCont {
+        width: 80px;
+        height: 80px;
+    }
+    .bCont p, .mCont p, .vCont p, .miCont p, .vaCont p {
+        width: 150px;
+    }
     .bCont {
-        width: 390px;
+        width: 100px;
     }
     /* .mCont, .vCont, .miCont{
         position: absolute;
@@ -229,9 +243,9 @@
         left: 30px;
         top: 20px;
     } */
-    .vaCont {
+    /* .vaCont {
         width: 390px;
-    }
+    } */
 
 
     .design3 {
@@ -253,8 +267,8 @@
         left: 250px;
     }
     .first, .second, .third {
-        width: 330px;
-        height: 100px;
+        width: 100px;
+        height: 10px;
     }
     .second {
         left: 100px;
@@ -380,15 +394,15 @@
     }
     .hangout {
         position: absolute;
-        width: 361px;
-        height: 240px;
+        width: 100px;
+        height: 150px;
         left: 113px;
         top: 0px;
     }
     .soak {
         position: absolute;
-        width: 361px;
-        height: 240px;
+        width: 100px;
+        height: 150px;
         left: 225px;
         top: 0px;
     }
@@ -406,6 +420,7 @@
     } 
     .picTitle3 {
         left: 25px;
+        width: 100px;
     }
    
 
