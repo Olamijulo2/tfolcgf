@@ -233,28 +233,50 @@
         width: 300px;
     }
     .mCont p, .vCont p, .miCont p {
-        width: 135px;
+        width: 133px;
 
     }
     .vaCont ul {
         width: 100px;
     }
-    .bCont, .mCont, .vCont, .miCont, .vaCont {
-        left: 15px;
-        top: 10px;
-        width: 150px;
-        height: 150px;
+    .bCont {
+        width: 300px;
+        left: 12px;
+        height: 330px;
+        top: 8px;
+    }
+    .mCont {
+        width: 140px;
+        height: 135px;
+        left: 12px;
+    }
+    .vCont {
+        width: 140px;
+        height: 135px;
+        left: 12px;
+    }
+    .miCont {
+        width: 140px;
+        height: 135px;
+        left: 12px;
     }
     .vaCont {
-        width: 80px;
+        left: 12px;
+        top: 10px;
+        width: 300px;
         height: 80px;
     }
+    /* .vaCont {
+        width: 80px;
+        height: 80px;
+    } */
     .bCont p, .vaCont p {
         width: 150px;
+        height: 330px;
     }
-    .bCont {
+    /* .bCont {
         width: 100px;
-    }
+    } */
     /* .mCont, .vCont, .miCont{
         position: absolute;
         width: 280px;
@@ -985,7 +1007,8 @@
         line-height: 13px;
     }
     .subscribe span {
-        width: 280px;
+        width: 300px;
+        border: 1px solid blue;
     }
     .fa-paper-plane {
         margin-left: 150px;
