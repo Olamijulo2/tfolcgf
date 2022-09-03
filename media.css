@@ -92,7 +92,7 @@
     }
     .preach {
         /* position: inherit; */
-        left: 6%;
+        left: 9%;
         /* left: 17px; */
         top: 530px;
     }
@@ -899,7 +899,7 @@
     .contactContent {
         width: 330px;
         height: 730px;
-        left: 10%;
+        left: 13%;
         /* left: 33px; */
         top: 4905px;
     }
@@ -1008,7 +1008,6 @@
     }
     .subscribe span {
         width: 300px;
-        border: 1px solid blue;
     }
     .fa-paper-plane {
         margin-left: 150px;
